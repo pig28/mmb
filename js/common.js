@@ -17,6 +17,6 @@
             return this.getParamObj()[key];
         },
         getIp : function(){
-            return url = "http://192.168.32.30:9090/api/";
+            return url = "http://192.168.32.29:9090/api/";
         }
     };

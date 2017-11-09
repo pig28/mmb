@@ -23,19 +23,103 @@
             <a href="javascript:;"><img src="images/header_app.png" alt=""></a>
         </div>
     </div>
+    <div class="gs_title">
+        <div class="title_nav">
+            <ul class="clearfix">
+                <li class="jd_li">
+                    <a href="javascript:;">
+                            京东
+                    </a>
+                    <i class="glyphicon glyphicon-triangle-top"></i>
+                </li>
+                <li class="area_li">
+                    <a href="javascript:;">
+                        华北
+                    </a>
+                    <i class="glyphicon glyphicon-triangle-top"></i>
+                </li>
+                <li class="pri_li">
+                    <a href="javascript:;">
+                        全部价格
+                    </a>
+                    <i class="glyphicon glyphicon-triangle-top"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="title_search">
+            <i class="glyphicon glyphicon-search"></i>
+        </div>
+        <div class="sm_nav">
+            <ul class="jingdong clearfix">
+                <!--挖个坑-->
+            </ul>
+            <ul class="area clearfix">
+                <!--挖个坑-->
+            </ul>
+            <ul class="pri clearfix">
+                <li>
+                    <a href="javascript:;">
+                       全部价格
+                    </a>
+                    <i class="glyphicon glyphicon-ok"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="gs_content">
+        
+        <ul class="clearfix">
+            <!--再挖个坑-->
+        </ul>
+    </div>
 
 
-    <!--<div class="mm_footer_top">-->
-        <!--<div class="login"><a href="javascript:;">登录</a></div>-->
-        <!--<div class="register"><a href="javascript:;">注册</a></div>-->
-        <!--<div class="go_top"><a href="#">返回顶部</a></div>-->
-    <!--</div>-->
-    <!--<div class="mm_footer">-->
-        <!--<p><a href="javascript:;">手机APP下载</a> <a href="javascript:;">慢慢买手机版</a> &#45;&#45; 掌上比价平台-->
-        <!--</p>-->
-        <!--<p>m.manmanbuy.com</p>-->
-    <!--</div>-->
+    <div class="mm_footer_top">
+        <div class="login"><a href="javascript:;">登录</a></div>
+        <div class="register"><a href="javascript:;">注册</a></div>
+        <div class="go_top"><a href="#">返回顶部</a></div>
+    </div>
+    <div class="mm_footer">
+        <p><a href="javascript:;">手机APP下载</a> <a href="javascript:;">慢慢买手机版</a> -- 掌上比价平台
+        </p>
+        <p>m.manmanbuy.com</p>
+    </div>
 </div>
+
+<script type="text/html" id="tpl">
+{{each result v i}}
+<li data-id="{{v.shopId}}">
+    <a href="javascript:;">
+        {{v.shopName}}
+    </a>
+</li>
+{{/each}}
+</script>
+
+<script type="text/html" id="tpl2">
+    {{each result v i}}
+    <li data-id="{{v.areaId}}">
+        <a href="javascript:;">
+          {{v.areaName}}
+        </a>
+    </li>
+    {{/each}}
+</script>
+
+<script type="text/html" id="tpl3">
+    {{each result v i}}
+    <li>
+        <a href="http://www.jd.com">
+            <div class="pic"><img src="{{v.productImg}}" alt=""></div>
+            <div class="text">{{v.productName}}</div>
+            <div class="link">
+                <span>{{v.productPrice}}</span>
+                <a href="javascript:;" class="qcd">去凑单</a>
+            </div>
+        </a>
+    </li>
+    {{/each}}
+</script>
 
 
 

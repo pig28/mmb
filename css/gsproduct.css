@@ -1,1 +1,116 @@
 @charset "UTF-8";
+.gs_title {
+  background-color: #fff;
+  height: 37px;
+  position: relative;
+}
+.gs_title .title_nav ul {
+  margin: 0;
+  border-bottom: 1px solid #ccc;
+}
+.gs_title .title_nav ul li {
+  width: 30%;
+  height: 37px;
+  float: left;
+  text-align: center;
+  line-height: 37px;
+}
+.gs_title .title_nav ul li a {
+  font-size: 16px;
+}
+.gs_title .title_search {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 37px;
+  height: 37px;
+  border-left: 1px solid #ccc;
+  text-align: center;
+  line-height: 37px;
+}
+.gs_title .title_search i {
+  font-size: 18px;
+  color: #666;
+}
+.gs_title .sm_nav ul {
+  z-index: 999;
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 38px;
+  left: 0;
+  background-color: #fff;
+}
+.gs_title .sm_nav ul li {
+  width: 100%;
+  height: 37px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  line-height: 37px;
+  padding-left: 10px;
+}
+.gs_title .sm_nav ul li a {
+  font-size: 16px;
+}
+.gs_title .sm_nav ul li i {
+  font-size: 16px;
+  font-weight: 100;
+  color: deeppink;
+  float: right;
+  line-height: 37px;
+  margin-right: 17px;
+}
+.gs_content {
+  margin-top: 10px;
+}
+.gs_content ul li {
+  margin-bottom: 10px;
+  margin-left: 3%;
+  width: 45%;
+  float: left;
+  background-color: #fff;
+}
+.gs_content ul li .pic {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+.gs_content ul li .pic img {
+  width: 194px;
+  height: 174px;
+}
+.gs_content ul li .text {
+  background-color: #fff;
+  color: #333333;
+  word-break: break-all;
+  padding: 0 6px;
+  height: 14px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: normal;
+  text-align: left;
+  margin-top: 6px;
+}
+.gs_content ul li .link {
+  margin: 0 10px;
+  height: 27px;
+  width: 100%;
+}
+.gs_content ul li .link span {
+  float: left;
+  color: #f8601d;
+  font-size: 18px;
+}
+.gs_content ul li .link .qcd {
+  float: right;
+  display: inline-block;
+  width: 62px;
+  height: 27px;
+  background-color: darkorange;
+  color: #fff;
+  line-height: 27px;
+  text-align: center;
+  margin-right: 20px;
+}
