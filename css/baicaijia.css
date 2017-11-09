@@ -1,0 +1,123 @@
+@charset "UTF-8";
+.bcj {
+  background-color: #f7f7f7;
+}
+.bcj .bcj_title {
+  overflow: scroll;
+}
+.bcj .bcj_title ul {
+  background-color: #fff;
+  width: 2000px;
+}
+.bcj .bcj_title ul li {
+  float: left;
+  margin: 0 10px;
+  height: 38px;
+  text-align: center;
+}
+.bcj .bcj_title ul li a {
+  display: inline-block;
+  height: 38px;
+  color: #333;
+  line-height: 38px;
+}
+.bcj .bcj_title ul li a.now {
+  border-bottom: 2px solid #e4393c;
+  color: #e4393c;
+}
+.bcj .bcj_content {
+  background-color: #fff;
+  margin-top: 5px;
+}
+.bcj .bcj_content ul {
+  padding: 10px;
+}
+.bcj .bcj_content ul li {
+  border-bottom: 2px solid #f7f7f7;
+}
+.bcj .bcj_content ul li .bcj_pic {
+  float: left;
+  width: 135px;
+  height: 130px;
+}
+.bcj .bcj_content ul li .bcj_pic img {
+  width: 130px;
+  height: 100%;
+}
+.bcj .bcj_content ul li .bcj_info {
+  overflow: hidden;
+}
+.bcj .bcj_content ul li .bcj_info .info_t {
+  height: 60px;
+  width: 100%;
+}
+.bcj .bcj_content ul li .bcj_info .info_t .top {
+  height: 38px;
+  line-height: 28px;
+  color: #000;
+}
+.bcj .bcj_content ul li .bcj_info .info_t .bottom {
+  height: 28px;
+  line-height: 28px;
+  font-size: 22px;
+  color: #fa353c;
+}
+.bcj .bcj_content ul li .bcj_info .info_t .bottom em {
+  font-size: 12px;
+  font-style: normal;
+}
+.bcj .bcj_content ul li .bcj_info .info_t .bottom del {
+  font-size: 12px;
+  color: #999;
+  margin-left: 13px;
+}
+.bcj .bcj_content ul li .bcj_info .info_b {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.bcj .bcj_content ul li .bcj_info .info_b .bar span {
+  font-weight: 700;
+  width: 80px;
+  height: 14px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #fa353c;
+  background-color: #ffb7b7;
+  line-height: 12px;
+  border-radius: 12px;
+  padding: 2px;
+}
+.bcj .bcj_content ul li .bcj_info .info_b .bar b {
+  color: #fa353c;
+  margin-left: 14px;
+  font-weight: 400;
+}
+.bcj .bcj_content ul li .bcj_info .info_b .link {
+  margin-top: 10px;
+}
+.bcj .bcj_content ul li .bcj_info .info_b .link a {
+  border: 1px dotted #fa353c;
+  padding: 5px;
+}
+.bcj .bcj_content ul li .bcj_info .info_b .link a:first-child {
+  color: #fa353c;
+  margin-left: 5px;
+  border: none;
+}
+.bcj .bcj_content ul li .bcj_info .info_b .link a:last-child {
+  float: right;
+  display: inline-block;
+  width: 58px;
+  height: 28px;
+  background-color: #fa353c;
+  margin-right: 5px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 8px;
+  padding: 0;
+  color: #fff;
+  margin-bottom: 10px;
+}

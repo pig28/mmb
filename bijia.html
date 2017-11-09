@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>慢慢买分类页</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bijia.css">
+
+</head>
+<body>
+
+<div class="mm_container">
+    <div class="mm_header">
+        <div class="logo">
+            <a href="index.html"><img src="images/header_logo.png" alt=""></a>
+        </div>
+        <div class="appdown">
+            <a href="javascript:;"><img src="images/header_app.png" alt=""></a>
+        </div>
+    </div>
+    <div class="mm_search">
+        <input type="text" name="search" placeholder="请输入您想比价的商品">
+        <button>搜索</button>
+    </div>
+    <div class="product_content">
+        <div class="product_content_title">
+            <div class="product_content_nav">
+               <!--挖个坑-->
+            </div>
+            <a href="javascript:;" class="product_screen">筛选</a>
+        </div>
+        <div class="product_bijia">
+            <!--挖个坑-->
+        </div>
+        <div class="tab">
+           <ul>
+               <li><a href="javascript:;">比价购买</a></li>
+               <li><a href="javascript:;">产品参数</a></li>
+               <li><a href="javascript:;">评价(2322)</a></li>
+           </ul>
+        </div>
+        <div class="plist">
+            <div class="plist_top">
+                <div class="plist_left">
+                    <a href="javascript:;"><img src="images/4.png" alt=""></a>
+                    <a href="javascript:;">中国亚马逊</a>
+                </div>
+                <div class="plist_right">
+                    <span> ￥1499.00 </span>
+                    <a href="javascript:;">去购买</a>
+                </div>
+            </div>
+            <div class="plist_bottom">
+
+                * 实际价格以各网站列出的实时售价为准，我们提供的价格可能有数小时至数日的延迟。
+
+            </div>
+        </div>
+        <div class="product_com_title">
+            网友评价
+        </div>
+        <div class="product_com_list">
+            <ul>
+               <!--挖个坑-->
+            </ul>
+        </div>
+        <div class="more_com">
+            <a href="javascript:;">查看更多评价</a>
+        </div>
+    </div>
+
+    <div class="mm_footer_top">
+        <div class="login"><a href="javascript:;">登录</a></div>
+        <div class="register"><a href="javascript:;">注册</a></div>
+        <div class="go_top"><a href="#">返回顶部</a></div>
+    </div>
+    <div class="mm_footer">
+        <p><a href="javascript:;">手机APP下载</a> <a href="javascript:;">慢慢买手机版</a> -- 掌上比价平台
+        </p>
+        <p>m.manmanbuy.com</p>
+    </div>
+
+</div>
+
+<script type="text/html" id="tpl">
+    {{each result v i}}
+    <div class="product_name">
+       {{v.productName}}
+    </div>
+    <div class="product_img">
+       {{@v.productImg}}
+    </div>
+    {{/each}}
+</script>
+
+<script type="text/html" id="tpl2">
+    {{each result v i}}
+    <li>
+        <div class="clearfix">
+            <span class="com_name">{{v.comName}}</span>
+            <span class="com_time">{{v.comTime}}</span>
+        </div>
+        <div class="clearfix">
+            <span class="pro_loc">{{v.comFrom}}</span>
+        </div>
+        <div class="pro_com">
+            {{v.comContent}}
+        </div>
+    </li>
+    {{/each}}
+</script>
+
+<script type="text/html" id="tpl3">
+    {{each result v i}}
+    <a href="index.html">首页</a>
+    >
+    <a href="#">{{v.category}}</a>
+    >
+    <a href="#"></a>
+    >
+    {{/each}}
+</script>
+
+<script type="text/html" id="tpl4">
+{{each result v i}}
+    {{v.brandName}}
+    {{/each}}
+
+</script>
+
+
+
+<script src="lib/jquery/jquery-1.12.4.min.js"></script>
+<script src="lib/artTemplate/template-web.js"></script>
+<script src="js/common.js"></script>
+<script src="js/bijia.js"></script>
+</body>
+</html>

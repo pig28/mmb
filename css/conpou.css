@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.cp_content {
+  width: 100%;
+  padding: 10px;
+}
+.cp_content ul li {
+  width: 25%;
+}
+.cp_content ul li a {
+  display: inline-block;
+}
+.cp_content ul li a img {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+.cp_content ul li a p {
+  text-align: center;
+}

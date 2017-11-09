@@ -1,0 +1,128 @@
+@charset "UTF-8";
+.cu_content {
+  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid transparent;
+}
+.cu_content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #666;
+}
+.cu_content .info {
+  margin-top: 16px;
+}
+.cu_content .info span {
+  font-size: 12px;
+  color: #999;
+}
+.cu_content .content {
+  color: #666;
+  font-size: 16px;
+}
+.cu_content .content .pic {
+  width: 120px;
+  float: right;
+  margin: -12px auto;
+}
+.cu_content .content .pic img {
+  width: 120px;
+  height: 120px;
+}
+.cu_content .content .conn {
+  margin-bottom: 30px;
+}
+.cu_content .content .conn img {
+  width: 200px;
+  height: 200px;
+}
+.cu_content .area {
+  background-color: #fff;
+}
+.cu_content .area ul {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  width: 100px;
+  margin: 0 auto;
+  padding: 0 5px 0 5px;
+}
+.cu_content .area ul li {
+  padding: 0 4px 0 4px;
+  margin-bottom: 5px;
+  border-bottom: 1px dashed #ccc;
+}
+.cu_content .area ul li strong {
+  float: right;
+  color: orange;
+}
+.cu_content .golink {
+  width: 100%;
+  margin: 22px auto;
+  background-color: #ff841d;
+  text-align: center;
+  border: 1px solid #ff841d;
+  border-radius: 5px;
+}
+.cu_content .golink a {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+}
+.cu_content .form {
+  border: 1px solid #ccc;
+}
+.cu_content .form textarea {
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.cu_content .form .to_com {
+  width: 100%;
+  height: 35px;
+}
+.cu_content .form .to_com .com_text {
+  float: right;
+  background-color: #ff841d;
+  width: 100px;
+  height: 100%;
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+}
+.cu_content .list {
+  margin-bottom: 30px;
+}
+.cu_content .list li .userimg {
+  width: 40px;
+  float: left;
+  border: 1px solid red;
+}
+.cu_content .list li .userimg img {
+  width: 40px;
+  height: 40px;
+}
+.cu_content .list li .name {
+  margin-left: 50px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.cu_content .list li .name .username {
+  color: #5997c0;
+}
+.cu_content .list li .name .time {
+  color: #666;
+  font-size: 12px;
+  float: right;
+}
+.cu_content .list li .content {
+  margin-left: 50px;
+}
+.cu_content .list li .content img {
+  width: 20px;
+  height: 20px;
+}
